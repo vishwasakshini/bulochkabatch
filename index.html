@@ -16,5 +16,24 @@
 <body>
 <h1> Булочка консалтинг с</h1>
 <p> Я тестирую интеграцию с батч </p>  
+  <script type="text/javascript">
+(function(b,a,t,c,h,e,r){h='batchSDK';b[h]=b[h]||function() {
+(b[h].q=b[h].q||[]).push(arguments)};e=a.createElement(t),r=a.getElementsByTagName(t)[0];
+e.async=1;e.src=c;r.parentNode.insertBefore(e,r);})(window,document,'script','https://via.batch.com/v2/bootstrap.min.js');
+  batchSDK('setup', {
+    apiKey: '861D772DDB1F4C26B58C96CD931DCBA1',
+    subdomain: 'github1',
+    authKey: '2.IXVMBo5tdPbV3dPnBD7a4vW4gWz2e4xmLGbyVPRE1f0=',
+    dev: true, // remove this for prod
+    vapidPublicKey: 'BNfGQUdcYhQwNe+pIwnV/G3BhXWnZ2EU/2Vs32AYD5eF49bl7KS3tJ+lrkoxNy01jIgEepWjk6v+KGASpnoeljo=',
+    defaultIcon: 'https://secure.url.to.your.icon.png', // default push icon on Chrome
+    ui: { // refer to the documentation to learn more https://batch.com/doc/web/ui-components.html
+      language: 'ru',
+      alert: { 
+        icon: 'https://secure.url.to.your.icon.jpg',
+      }
+    },
+});
+</script>
 </body>
 </html>
